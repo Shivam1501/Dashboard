@@ -1,0 +1,456 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    width: 20%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(4, 4, 95, 0.966);
+    overflow: hidden;
+    box-shadow: 0px 0px 25px 0px  rgb(126, 126, 226);
+}
+#left h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-left: 36px;
+    margin-top: 10px;
+}
+#profile{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#profile #pro1{
+    width: 40px;
+    height: 40px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1611843995420-bf6596154485?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTh8fHBvcnRhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    border: solid 3px #fff;
+}
+#profile #pro2{
+    color: #fff;
+    /* margin-left: 10px; */
+    font-family: sans-serif;
+}
+#profile #pro2 h5{
+    font-size: 14px;
+    font-weight: 100;
+}
+#profile #pro2 small{
+    font-size: 9px;
+    opacity: 0.5;
+}
+#profile #pro3{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+}
+#profile #pro3 i{
+    color: #fff;
+}
+#pro3 i:hover{
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    transform: scale(2);
+}
+#elements{
+    width: 100%;
+    height: 23px;
+    margin-top: 30px;
+    display: flex;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right{
+    width: 77%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+#right #nav{
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    /* background-color: red; */
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navleft{
+    width: 320px;
+    /* background-color: aqua; */
+    color: rgba(4, 4, 95, 0.966);
+}
+#navleft h5{
+    font-size: 14px;
+    opacity: 0.4;
+}
+#navleft h2{
+    margin-top: 10px;
+}
+#navright{
+    width: 200px;
+    display: flex;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+}
+#row1{
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#elem{
+    width: 31%;
+    height: 240px;
+    border-radius: 20px;
+    /* background-color: green; */
+    /* padding: 20px; */
+}
+#elem:nth-child(1){
+    background-color: #f8d6d64f;
+    padding: 20px;
+}
+#elem:nth-child(1) #elem1{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    background-color: aqua;
+    background-image: url(https://s3.amazonaws.com/designco-web-assets/uploads/2019/02/Animation-Handbook-05.png);
+    background-position: center;
+    background-size: cover;
+}
+#elem:nth-child(1) #elem2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: rgba(4, 4, 95, 0.966);
+    display: flex;
+    justify-content: space-between;
+}
+#elem:nth-child(1) #elem2 small{
+    opacity: 0.4;
+}
+#elem:nth-child(1) #elem2 #elem22{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 9px rgba(4, 4, 95, 0.966);
+    background-color: rgba(9, 9, 184, 0.966);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#elem:nth-child(2) #elem1{
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    display: flex;
+    background-color: #e6e4e4;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: rgba(4, 4, 95, 0.966);
+}
+#elem:nth-child(2) #elem1 #elem11{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+}
+#elem:nth-child(2) #elem1 #elem11 small{
+    opacity: 0.4;
+    font-size: 12px;
+}
+#elem:nth-child(2) #elem1 #elem11 h3{
+    font-size: 17px;
+    margin-top: 3px;
+}
+#elem:nth-child(2) #elem1 #elem11 h6{
+    font-size: 10px;
+    opacity: 0.5;
+}
+#elem:nth-child(2) #elem1 #elem11 h4{
+    font-size: 15px;
+    font-weight: 900px;
+    margin-top: 10px;
+}
+#elem:nth-child(2) #elem1 #elem12{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#elem:nth-child(2) #elem2{
+    width: 100%;
+    height: 110px;
+    margin-top: 14px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#elem:nth-child(2) #elem2 #elem21{
+    width: 46%;
+    height: 95%;
+    background-color: #dadada;
+    border-radius: 15px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: sans-serif;
+}
+#elem:nth-child(2) #elem2 #elem21 img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#elem:nth-child(2) #elem2 #elem21 h4{
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 4px;
+}
+#elem:nth-child(2) #elem2 #elem21 small{
+    font-size: 10px;
+    opacity: 0.5;
+    margin-left: 36px;
+}
+
+#elem #elem2 #elem21:nth-child(2){
+    background-color:  rgba(4, 4, 117, 0.966);
+    box-shadow: 0px 0px 10px 0px rgba(4, 4, 117, 0.966);
+    color: white;
+}
+#elem #elem2 #elem21:nth-child(2) h4{
+    margin-left: 25px;
+}
+#elem #elem2 #elem21:nth-child(2) small{
+    margin-left: 45px;
+}
+#elem:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1557157999-1ca7d3dceab8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 30px 0px #19355F;
+    padding: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#elem:nth-child(3) #elem1{
+    width: 80%;
+}
+#elem:nth-child(3) #elem1 h2{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+#elem:nth-child(3) #elem1 small{
+    opacity: 0.7;
+}
+#elem:nth-child(3) #elem1 h1{
+    font-weight: 200;
+    margin-top: 10px;
+}
+#elem:nth-child(3) #elem2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 20%;
+    background-color: rgb(233, 233, 233);
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#elem:nth-child(3) #elem2 #elem21{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(15, 15, 199);
+}
+
+#row2{
+    width: 100%;
+    height: 248px;
+    /* background-color: red; */
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+#row2 #debt{
+    width: 31%;
+    height: 240px;
+    border-radius: 20px;
+    margin-top: 6px;
+    /* background-color: green; */
+    font-family: sans-serif;
+}
+#row2 #debt:nth-child(1) h3{
+    /* margin-left: 6px; */
+}
+#row2 #debt:nth-child(1) #debt1{
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: antiquewhite; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#row2 #debt:nth-child(1) #debt11{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+}
+#row2 #debt:nth-child(1) #debt1 small{
+    opacity: 0.5;
+    font-weight: 500;
+}
+#row2 #debt:nth-child(1) #social{
+    width: 100%;
+    height: 50px;
+    /* background-color: burlywood; */
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#row2 #debt:nth-child(1) #social #logo1{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    background-image: url(starbucks.png);
+    background-size: cover;
+    background-position: center;
+}
+#row2 #debt:nth-child(1) #social #details{
+    width: 90px;
+    /* background-color: #fff; */
+    line-height: 13px;
+    margin-left: 10px;
+}
+
+#row2 #debt:nth-child(1) #social #details small{
+    font-size: 12px;
+    opacity: 0.4;
+}
+#row2 #debt:nth-child(1) #social #sensex1{
+    margin-left: 95px;
+    color: rgb(3, 163, 3);
+}
+#row2 #debt:nth-child(1) #social #sensex2{
+    margin-left: 95px;
+    color: maroon;
+}
+#row2 #debt:nth-child(1) #social #sensex3{
+    margin-left: 95px;
+    color: orange;
+}
+#row2 #debt:nth-child(1) #social #logo2{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    /* border-radius: 10px; */
+    background-image: url(instagram.png);
+    background-size: cover;
+    background-position: center;
+}
+#row2 #debt:nth-child(1) #social #logo3{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    border-radius: 10px;
+    background-image: url(bunch.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#row2 #debt:nth-child(2){
+    background-image: url(task.png);
+    background-size: cover;
+    background-position: center;
+}
+#row2 #debt:nth-child(3){
+    position: relative;
+    background-image:linear-gradient(to right, pink, rgb(190, 8, 190), rgb(137, 18, 206), rgb(121, 11, 185)) ;
+    color: #fff;
+    box-shadow: 0px 0px 30px 0px rgb(95, 95, 211);
+}
+#row2 #debt:nth-child(3) #master{
+    width: 100px;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    font-family: "Montserrat";
+    opacity: 0.7;
+}
+
+
+#row2 #debt:nth-child(3) #debts{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #fff; */
+}
+#row2 #debt:nth-child(3) #debts h1{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
